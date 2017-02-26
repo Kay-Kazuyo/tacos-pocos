@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>POCOS TACOS</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/slick.css" rel="stylesheet" type="text/css">
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+<script src="https://use.fontawesome.com/f5e65e0b7e.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.crossFadeRollOver.js"></script>
+<script>
+$(document).ready(function() {
+$("nav a").CrossFadeRollOver({
+	type : "img",
+	opacity : 0.8,
+	duration : { on:500, off:500 },
+	suffix : { on:"_on", off:"_off" },
+	direction : "vertical",
+	fadeTarget : null,
+	activeClassName : "active"
+});
+});
+</script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.slider_for').slick({
+          infinite: true,
+          dots:true,
+          slidesToShow: 1,
+          centerMode: true, //要素を中央寄せ
+          centerPadding:'100px', //両サイドの見えている部分のサイズ
+          autoplay:true, //自動再生
+          responsive: [{
+               breakpoint: 480,
+                    settings: {
+                         centerMode: false
+               }
+          }]
+     });
+});
+</script>
+<script type="text/javascript" src="js/jquery.heightLine.js"></script>
+<script>
+$(document).ready(function() {
+    $(".tp_box").heightLine();
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+ <header>
+ <img src="img/logo/line3.png" width="980" height="30" alt=""/>
+<div id="logo">
+  <h1><img src="img/logo/logo_all.png" width="613" height="121" alt="POCOS TACOS"/></h1>
+</div>
+   <div id="sns_icon">
+     <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+     <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+     <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+   </div>
+   <img class="cf" src="img/logo/line3.png" width="980" height="30" alt=""/>
+  </header>
+  <nav>
+    <ul class="cf">
+      <li><a href="#" class="gn_first"><img src="img/nav/home_off.png" width="196" height="81" alt="ホーム"/></a></li>
+      <li><a href="menu.html"><img src="img/nav/menu_off.png" width="196" height="81" alt="メニュー"/></a></li>
+      <li><a href="#"><img src="img/nav/about_off.png" width="196" height="80" alt="会社概要"/></a></li>
+      <li><a href="#"><img src="img/nav/recruit_off.png" width="196" height="80" alt="採用情報"/></a></li>
+      <li><a href="#" class="gn_last"><img src="img/nav/contact_off.png" width="196" height="80" alt="連絡先"/></a></li>
+    </ul>
+  </nav>
+  <div id="top_main" class="cf"> 
+    <div class="slider_for">
+    <div><img src="img/index/pic1.jpg" width="980" height="450" alt=""/></div>
+    <div><img src="img/index/pic2.jpg" width="980" height="450" alt="エビタコス"/></div>
+    <div><img src="img/index/pic3.jpg" width="980" height="450" alt="タコス2"/></div>
+    <div><img src="img/index/pic4.jpg" width="980" height="450" alt="ソペス"/></div>
+    <div><img src="img/index/pic5.jpg" width="980" height="450" alt="ケサディーヤ"/></div>
+    </div>
+    </div>
+  <div id="content">
+  <section class="topic" id="information">
+    <h1><img src="img/h1 tag/information.png" width="308" height="151" alt="インフォメーション"/></h1>
+  <div class="tp_box tb_first">
+  <dl>
+    <dt>2017/02/16</dt>
+    <dd>新メニューエビのタコス始めました。</dd>
+    <dt>2017/02/7</dt>
+    <dd>バレンタインデー間近。二人タコスは？</dd>
+    <dt>2017/01/20</dt>
+    <dd>恵方巻ならぬ、恵方タコス？に挑戦</dd>
+    <dt>2017/01/16</dt>
+    <dd>「王様のブランチ」で紹介されました。</dd>
+    <dt>2017/01/08</dt>
+    <dd>タコスで温まりませんか。</dd>
+    <dt>2017/01/01</dt>
+    <dd>あけましておめでとうございます。</dd>
+    </dl>
+  </div>
+    </section>
+   <section class="topic" id="special"> 
+    <h1><img src="img/h1 tag/spcial.png" width="308" height="151" alt="スペシャル"/></h1>
+  <div class="tp_box"> 
+  <img src="img/index/tortilla_soup.jpg" width="260" height="173" alt="トルティーヤスープ"/> 
+  <p id="sp_title"> 本日のランチスペシャル</p>
+  <p id="sp_name"> トルティーヤスープ</p>
+  <p> トマトベースのスープに揚げたてのトルティーヤにチーズを入れ、かき混ぜて食べます。体も温まり、ほっこりするスープです。寒い今にぴったり。</p>
+  </div>
+    </section>
+  <section class="topic" id="location">
+    <h1><img src="img/h1 tag/location.png" width="308" height="151" alt="場所"/></h1> 
+    <div class="tp_box tb_last"> 
+      <p><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> 東京都渋谷区道玄坂2-3-5</p>
+      <p><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i> 03-6543-2100</p>
+      <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> pocostacos@ptjapan.com</p>
+      <p><i class="fa fa-map-o fa-lg" aria-hidden="true"></i> MAP</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.811575258518!2d139.6971065893882!3d35.65872061075486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x404b96ac29a21c4d!2z44OV44Kp44O844Op44Og44O744Ko44Kk44OI!5e0!3m2!1sja!2sjp!4v1487840446788" width="270" height="270" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div> 
+  </section>
+  <footer>
+ <img src="img/logo/line3.png" width="980" height="30" alt=""/>
+ <div class="cf" id="inner">
+     <div class="ft_nav">
+         <ul class="cf">
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="menu.html">MENU</a></li>
+             <li><a href="#">ABOUT </a></li>
+             <li><a href="#">RECRUIT</a></li>
+             <li><a href="#" class="ftgn_last">CONCACT</a></li>
+             </ul>
+     </div>
+     <p class="copyright"><small>Copyright&copy; 2017 POCOS TACOS All right reserved.</small></p>
+ </div>
+   </footer>
+</div>
+</div>
+</body>
+</html>

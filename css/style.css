@@ -1,0 +1,262 @@
+@charset "UTF-8";
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+body {
+	padding: 0;
+	margin: 0;
+	color: #000000;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-image: url(../img/bgcolor/bgcolor.jpg);
+}
+#wrapper {
+	margin: 0 auto;
+	width: 980px;
+	background-repeat: repeat;
+	background-position: -8% 0%;
+	background-image: url(../img/bgcolor/bgcolor.jpg);
+	/* [disabled]background-color: #F08517; */
+}
+header {
+	height: 200px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+#logo h1 {
+	margin: 10px 0 0;
+	text-align: center;	
+}
+#sns_icon {
+	padding: 0;
+	margin: -10px 4px 0 0;
+	text-align: right;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	line-height: 0;	
+}
+nav img {
+	vertical-align: bottom;
+}
+nav .gn_first {
+    margin-top: -1px;
+}#top_main {
+	margin: 0 0 30px;
+	clear: both;
+}
+.slider_for {
+	margin-top: -1px;
+}
+footer {
+	clear: both;
+}
+footer .copyright {
+    margin-right: 20px;
+    display: block;
+    float: right;
+    color: #FFFFFF;
+}
+footer .copyright small {
+	font-size: 14px;
+}
+footer p .copyright {
+    padding: 20px;
+}
+footer #inner {
+    background-color: #29201C;
+}
+.ft_nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ft_nav {
+    padding: 20px;
+    margin: 0;
+    /*width: 430px;*/
+    display: block;
+    float: left;  
+}
+.ft_nav ul li {
+	display: block;
+	float: left;
+}
+.ft_nav ul li a {
+    display: block;
+    width: 70px;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.ftgn_last {
+	margin-left: 10px;
+}
+.topic {
+	padding: 3px;
+	margin: 0 5px 10px 5px;
+	width: 296px;
+	float: left;
+}
+.topic h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.tp_box {
+	margin-top: -74px;
+	padding: 55px 0 0 0;
+	background-color: #FCF2ED;
+	border: 7px dotted #662905;
+	margin-left: 10px;
+}
+#information, #location {
+	width: 318px;
+}
+#information {
+	margin-left: 0px;
+}
+#information img, #location img {
+	margin-left: 10px;
+}
+.tp_box dt {
+	margin-top: 16px;
+	padding: 0 32px;
+	text-shadow: 1px 1px #0A0909;
+	background-color: #8CCB73;
+	color: #FFFFFF;
+	text-align: center;
+}
+.tp_box dd {
+	padding: 11px 3px 0 3px;
+	margin-left: 0;
+	border-color: #19140F;
+	font-size: 14px;
+	text-align: center;
+}
+.tp_box dl {
+	margin: 0 5px;
+}
+#location p {
+	margin-left: 30px;
+}
+#location iframe {
+	margin-left: 12px;
+}
+#special .tp_box {
+	line-height: 1;
+}
+#special #sp_title {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: #E21418;
+	text-decoration: underline;
+}
+#special #sp_name {
+	font-weight: bold;
+	color: #065420;
+	text-align: center;
+	font-size: 20px;
+}
+#special .tp_box img {
+	margin-left: 7px;
+	margin-top: 15px;
+}
+#special p {
+	margin-left: 10px;
+}
+#container {
+	margin: 20px;
+	border: 10px double #191111;
+}
+#container h1 {
+	font-family: arbutus;
+	font-style: normal;
+	font-weight: 400;
+	color: #181414;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 20px;
+}
+.main_menu  {
+	color: #191111;
+	font-family: smokum;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+.price {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	padding: 0;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+#container ul li {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.menu_top {
+	display: inline-block;
+	zoom: 1;
+	width: 250px;
+	height: 85px;
+}
+
+#mtop_container {
+	margin: 30px 30px 10px 30px;
+	text-align: center;
+	vertical-align: middle;
+	height: 78px;
+}
+.jp_small {
+	font-size: 30px;
+}
+#menu_pics {
+	margin-left: 20px;
+	padding: 20px;
+	text-align: center;
+}
+table, th, tr {
+	border: none;
+}
+tbody tr td {
+	padding: 10px 10px 0 10px;
+}
+.menulist td {
+	font-weight: bold;
+}

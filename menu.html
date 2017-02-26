@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>POCOS TACOS</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/slick.css" rel="stylesheet" type="text/css">
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+<script src="https://use.fontawesome.com/f5e65e0b7e.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.crossFadeRollOver.js"></script>
+<script>
+$(document).ready(function() {
+$("nav a").CrossFadeRollOver({
+	type : "img",
+	opacity : 0.8,
+	duration : { on:500, off:500 },
+	suffix : { on:"_on", off:"_off" },
+	direction : "vertical",
+	fadeTarget : null,
+	activeClassName : "active"
+});
+});
+</script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.slider_for').slick({
+          infinite: true,
+          dots:true,
+          slidesToShow: 1,
+          centerMode: true, //要素を中央寄せ
+          centerPadding:'100px', //両サイドの見えている部分のサイズ
+          autoplay:true, //自動再生
+          responsive: [{
+               breakpoint: 480,
+                    settings: {
+                         centerMode: false
+               }
+          }]
+     });
+});
+</script>
+<script type="text/javascript" src="js/jquery.heightLine.js"></script>
+<script>
+$(document).ready(function() {
+    $(".tp_box").heightLine();
+});
+</script>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/smokum:n4:default;arbutus:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="wrapper">
+ <header>
+ <img src="img/logo/line3.png" width="980" height="30" alt=""/>
+<div id="logo">
+  <h1><img src="img/logo/logo_all.png" width="613" height="121" alt="TACOS POCOS"/></h1>
+</div>
+   <div id="sns_icon">
+     <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+     <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+     <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+   </div>
+   <img class="cf" src="img/logo/line3.png" width="980" height="30" alt=""/>
+  </header>
+  <nav>
+    <ul class="cf">
+      <li><a href="index.html" class="gn_first"><img src="img/nav/home_off.png" width="196" height="81" alt="ホーム"/></a></li>
+      <li><a href="menu.html"><img src="img/nav/menu_off.png" width="196" height="81" alt="メニュー"/></a></li>
+      <li><a href="#"><img src="img/nav/about_off.png" width="196" height="80" alt="会社概要"/></a></li>
+      <li><a href="#"><img src="img/nav/recruit_off.png" width="196" height="80" alt="採用情報"/></a></li>
+      <li><a href="#" class="gn_last"><img src="img/nav/contact_off.png" width="196" height="80" alt="連絡先"/></a></li>
+    </ul>
+  </nav>
+  <div id="container" class="cf">
+  <div id="mtop_container">
+    <div class="menu_top"><img src="img/menu/menu_sign.png" width="161" height="41" alt=""/></div>
+    <div class="menu_top">
+      <h1>MENU</h1>
+    </div>
+    <div class="menu_top"><img src="img/menu/menu_sign.png" width="161" height="41" alt=""/></div>
+  </div>
+  <h2 class="main_menu">TACOS (MEAT/肉)</h2>
+  <p class="price">Price  1枚　&yen;300 / 4枚　&yen;1,050　</p>
+  <ul>
+  <li>BEEF ----- CARNE ASADA (牛肉ステーキ）</li>
+  <li>PORK1----- AL PASTOR (チリとパイナップルのソース漬け豚肉）</li>
+  <li>PORK2 ----- CARNITAS　（豚肉と玉ねぎの炒め） </li>
+  <li>CHIKEN -----POLLO CON MOLE (鶏肉のチョコレートソース煮）</li>
+  </ul>
+  <h2 class="main_menu">TACOS (FISH/魚)</h2>
+  <p class="price">Price  1枚　&yen;500 / 4枚　&yen;1,300　</p>
+  <ul>
+  <li>TUNA ----- ATUNE (マグロの炙り）</li>
+  <li>SHRIMP ----- CAMARONES(エビのグリル)</li>
+  <li>SQUID ----- CALAMARI (イカのグリル）</li>
+  </ul>
+  <h2 class="main_menu">TACOS (VEGETABLE/野菜)</h2>
+  <p class="price">Price  1枚　&yen;250 / 4枚　&yen;900　 TOFUのみ 1枚　&yen;400</p>
+  <ul>
+  <li>POPAI ----- SPINACHI (ほうれん草と豆の炒め</li>
+  <li>HOKKAIDO ----- CORN+ Cream (トウモロコシとホワイトソース)</li>
+  <li>ZEN ----- TOFU (スペシャルソース漬け込みとうふ）</li>
+  </ul>
+  <div class="mm_name">
+	  <h2 class="main_menu">QUESADILLA <span class="jp_small">(ケサディーヤ）</span></h2>
+  </div>
+  <p class="price">Price  VEGE (野菜)　&yen; 600 / TOFU,MEAT (とうふ・シーフード・ミート)　&yen;1,000</p>
+  <ul> 
+  <li>　お好みの具材　＋　チーズを混ぜて、２枚のトルティーヤでサンドイッチにして焼いたもの。</li>
+  </ul>
+  <div id="menu_pics">
+    <table border="0">
+      <tbody>
+        <tr>
+          <td><img src="img/menu/menu_pic1.jpg" width="260" height="175" alt="チキン+ポーク１"/></td>
+          <td><img src="img/menu/menu_pic2.jpg" width="260" height="175" alt="サルサバー"/></td>
+          <td><img src="img/menu/menu_pic3.jpg" width="260" height="175" alt="ケサディーヤ"/></td>
+          </tr>
+        <tr class="menulist">
+          <td>チキン+ポーク1</td>
+          <td>ホームメイドの特製サルサ</td>
+          <td>ケサディーヤ(ポーク2)</td>
+          </tr>
+        <tr>
+          <td><img src="img/menu/menu_pic4.jpg" width="260" height="175" alt="マグロのタコス"/></td>
+          <td><img src="img/menu/menu_pic5.jpg" width="260" height="165" alt="イカのタコス"/></td>
+          <td><img src="img/menu/menu_pic6.jpg" width="260" height="175" alt="とうふのタコス"/></td>
+          </tr>
+        <tr class="menulist">
+          <td>マグロのタコス</td>
+          <td>イカのタコス</td>
+          <td>とうふのタコス</td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+  </div>
+  <footer>
+ <img src="img/logo/line3.png" width="980" height="30" alt=""/>
+ <div class="cf" id="inner">
+     <div class="ft_nav">
+         <ul class="cf">
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="menu.html">MENU</a></li>
+             <li><a href="#">ABOUT </a></li>
+             <li><a href="#">RECRUIT</a></li>
+             <li><a href="#" class="ftgn_last">CONCACT</a></li>
+        </ul>
+     </div>
+     <p class="copyright"><small>Copyright&copy; 2017 POCOS TACOS All right reserved.</small></p>
+ </div>
+  </footer>
+</div>
+
+</body>
+</html>
